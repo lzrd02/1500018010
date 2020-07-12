@@ -1,39 +1,76 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHMTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-	<title>biodata</title>
+	<title>Pesan</title>
+	<meta http=equiv="Content-type" content="text/html" charset="utf-8" />
+	<link href="stylesheet/style.css" rel="stylesheet" type="text/css" />
 </head>
+
+<script language="javascript">
+<!--
+window.alert("Monggo (y)");
+-->
+</script>
+
 <body>
-<table align="center">
+		
+	<div id="container">
+		<div id="header"> 
+				
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="form.html" class="selected">Form</a></li>
+			</ul>
+			<div class="clearLeft"></div>
+		</div>
+		<div id="main">
+			<div id="content">
+				<h2>FORM PENDAFTARAN KULIAH PAKAR</h2>
+				<table align="center">
  <tr>
-  <td>Nama</td><td>:</td>
-  <td><input type="text" name="nama" placeholder="masukan Nama"></td>
+  <td>Email</td><td>:</td>
+  <td><input type="text" name="email" placeholder="Masukan Email"></td>
  </tr>
  <tr>
-  <td>Jenis kelamin</td><td>:</td>
+  <td>Nama</td><td>:</td>
+  <td><input type="text" name="nama" placeholder="Masukan Nama"></td>
+ </tr>
+ <tr>
+  <td>Jenis Kelamin</td><td>:</td>
   <td>
    <input type="radio" name="jenis_kelamin" value="pria">Laki-laki
    <input type="radio" name="jenis_kelamin" value="wanita">Perempuan
   </td>
  </tr>
-  <td>Agama</td><td>:</td>
-  <td>
-   <select name="status">
-    <option value="menikah">Islam</option>
-    <option value="single">Kristen</option>
-    <option value="single">Katolik</option>
-    <option value="single">Hindu</option>
-    <option value="single">Budha</option>
-   </select>
-  </td>
+ <tr>
+  <td>Instansi</td><td>:</td>
+  <td><input type="text" name="instansi" placeholder="Masukan Instansi"></td>
  </tr>
  <tr>
-  <td>Komentar</td><td>:</td>
-  <td><textarea name="komentar" placeholder="komentar"></textarea></td>
- </tr>
+  <td>E.Sertifikat</td><td>:</td>
+  <td>
+   <input type="radio" name="sertifikat" value="pria">Iya
+   <input type="radio" name="sertifikat" value="wanita">Tidak
+  </td>
  <tr>
  <td><button type="submit">Simpan</button><button type="submit">Batal</button></td>
  </tr>
 </table>
+			</div>
+			<div id="side">
+				<div id="logo">
+					<div class="logo"></div>
+				</div>
+			</div>
+			<div class="clearBoth"></div>
+		</div>
+		<div id="footer">
+			TA &copy Pweb.
+		</div>
+	</div>
 </body>
 </html>
