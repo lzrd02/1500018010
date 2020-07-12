@@ -10,11 +10,27 @@
 	</tr>
 	<tr>
 		<td align="center" bgcolor="#808080" width="200" height="200">
-			<a href="https://www.instagram.com/lzrd.02/">Link 1</a><br>
-			<a href="home.html">Link 2</a><br>
-			<a href="about.html">Link 3</a>
 		</td>
-		<td align="center">Media kosongdua adalah jaga pembuatan desain <br> grafis dan pembuatan media pembelajaran yang sasaran nya mahasiswa prodi pendidikan untuk<br> menyelesaikan tugas akhir mereka atau/dan media pembelajaran yang bisa dipesan langsung dari tk maupun sd </td>
+		<td align="center">
+			<h2>Aplikasi penyimpanan data pada file TXT</h2>  
+ <hr>  
+ <form action="simpan.php" method="post">  
+ <table width="100%" border="0">  
+ <tr>  
+      <td width="150">Nama File</td>  
+      <td><input type="text" name="nama" required></td>  
+ </tr>  
+ <tr>  
+      <td width="150" valign="top">Isi Tulisan</td>  
+      <td><textarea name="isi" cols="50" rows="10" required></textarea></td>  
+ </tr>  
+ <tr>  
+      <td width="150"></td>  
+      <td><input type="submit" value="simpan"></td>  
+ </tr>  
+ </table>  
+ </form> 
+		 </td>
 		<td bgcolor="#808080" width="200" height="200"></td>
 	</tr>
 	<tr>
