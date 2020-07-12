@@ -30,7 +30,7 @@
  </tr>  
  </table>  
  </form> 
-		 </td>
+		</td>
 		<td bgcolor="#808080" width="200" height="200"></td>
 	</tr>
 	<tr>
